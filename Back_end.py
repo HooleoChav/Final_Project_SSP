@@ -3,7 +3,7 @@ import httpx
 
 app = FastAPI()
 
-TREFLE_API_KEY = "qli6VbX_vG6cfyVLp0O0MQjeqYNw-MrH-zgL173G4nw"  # Replace with your Trefle API key
+TREFLE_API_KEY = "YOUR API TOKEN"  # Replace with your Trefle API key
 TREFLE_API_URL = "https://trefle.io/api/v1/plants/search"
 
 @app.get("/search/{query}")
